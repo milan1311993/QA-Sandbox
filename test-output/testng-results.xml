@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-10T17:51:01Z" name="Default suite" finished-at="2019-09-10T17:51:18Z" duration-ms="17353">
+    <groups>
+    </groups>
+    <test started-at="2019-09-10T17:51:01Z" name="Default test" finished-at="2019-09-10T17:51:18Z" duration-ms="17353">
+      <class name="InvalidLogInTestCases">
+        <test-method is-config="true" signature="setupDriver()[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:01Z" name="setupDriver" finished-at="2019-09-10T17:51:06Z" duration-ms="5358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="emptyEmail(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:06Z" name="emptyEmail" data-provider="LoginData" finished-at="2019-09-10T17:51:09Z" duration-ms="2962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milan1311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmail -->
+        <test-method signature="emptyEmailAndPassword(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:09Z" name="emptyEmailAndPassword" data-provider="LoginData" finished-at="2019-09-10T17:51:10Z" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailAndPassword -->
+        <test-method signature="emptyPassword(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:10Z" name="emptyPassword" data-provider="LoginData" finished-at="2019-09-10T17:51:12Z" duration-ms="1246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milanmihajlovic93@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method signature="invalidEmail(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:12Z" name="invalidEmail" data-provider="LoginData" finished-at="2019-09-10T17:51:13Z" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milanmihajlovic93@gmailcom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milan1311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="invalidPassword(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:13Z" name="invalidPassword" data-provider="LoginData" finished-at="2019-09-10T17:51:14Z" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milanmihajlovic93@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method signature="wrongEmail(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:14Z" name="wrongEmail" data-provider="LoginData" finished-at="2019-09-10T17:51:15Z" duration-ms="1147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milanmihajlvi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milan1311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongEmail -->
+        <test-method signature="wrongPassword(java.lang.String, java.lang.String)[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:15Z" name="wrongPassword" data-provider="LoginData" finished-at="2019-09-10T17:51:17Z" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[milanmihajlovic93@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[milan1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongPassword -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:InvalidLogInTestCases@6295d394]" started-at="2019-09-10T17:51:17Z" name="closeDriver" finished-at="2019-09-10T17:51:18Z" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- InvalidLogInTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
